@@ -63,7 +63,7 @@ async function IniciarConexion2(req, res) {
         let comando = body.trim().toLowerCase();
 
         if (comando == "/ayuda") {
-            await client.sendMessage(from, textos.ayuda());
+            await client.sendMessage(from, "ayudasss");
         }
 
 
